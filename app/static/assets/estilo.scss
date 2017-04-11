@@ -1,0 +1,31 @@
+body{
+	background-color: #eeeeee;
+}
+
+.nav-extended{
+	.nav-content{
+		ul{
+			height: 36px !important;
+			li{
+				height: 36px !important;
+			}
+		}
+	}
+	.material-icons{
+	    height: 44px !important;
+    	line-height: 44px !important;
+	}
+}
+
+.pagina{
+	margin-bottom: 0px !important;
+}
+
+#menu_principal{
+	height: 50px;
+}
+
+.conteudo{
+	min-height: calc(100vh - 100px) !important;
+	margin: 0px !important;
+}

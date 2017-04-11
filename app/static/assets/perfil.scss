@@ -1,0 +1,58 @@
+#perfil_card{
+	
+	.perfil{
+		padding: 15px 20px;
+		min-height: calc(100vh - 100px);
+	}
+
+	.info{
+		background-color: #DADFE1;
+		.titulo{
+			font-size: 1.5em;
+		    line-height: 40px;
+		    display: block;
+		    padding-left: 3px;
+		    color: #2D2A25;
+		}
+		.subtitulo{
+			font-size: 1em;
+		    line-height: 25px;
+		    display: block;
+		    padding-left: 3px;
+		}
+	}
+	.thumbnail{
+		height: calc(100vh - 240px);
+	    width: 100%;
+	    display: block;
+	    background-position: center;
+	    border-radius: 5px 5px 0px 0px;
+	}
+	.acoes{
+		background-color: #DADFE1;
+    	height: 45px;
+    	margin: 0px;
+    	border-radius: 0px 0px 5px 5px;
+    	a{
+    		padding: 0px;
+		    height: 100%;
+		    display: block;
+		    text-align: center;
+		    font-size: 3.5vh;
+		    color: #2D2A25;
+    	}
+    	.like{
+    		background-color: #b9f6ca;
+    	}
+    	.dislike{
+    		background-color: #ffcdd2;
+    	}
+	}
+	.btn-floating{
+		top: -20px;
+	    left: -10px;
+	    float: right;
+	    position: relative;
+	    background-color: #90caf9 !important;
+	}
+}

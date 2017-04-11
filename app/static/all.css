@@ -1,0 +1,82 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natanjunior\/Documents\/fynProject\/app\/static\/assets\/perfil\.scss}line{font-family:\000031}}
+#perfil_card .perfil {
+  padding: 15px 20px;
+  min-height: calc(100vh - 100px); }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natanjunior\/Documents\/fynProject\/app\/static\/assets\/perfil\.scss}line{font-family:\000036}}
+  #perfil_card .info {
+    background-color: #DADFE1; }
+    @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natanjunior\/Documents\/fynProject\/app\/static\/assets\/perfil\.scss}line{font-family:\000037}}
+    #perfil_card .info .titulo {
+      font-size: 1.5em;
+      line-height: 40px;
+      display: block;
+      padding-left: 3px;
+      color: #2D2A25; }
+      @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natanjunior\/Documents\/fynProject\/app\/static\/assets\/perfil\.scss}line{font-family:\0000314}}
+      #perfil_card .info .subtitulo {
+        font-size: 1em;
+        line-height: 25px;
+        display: block;
+        padding-left: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natanjunior\/Documents\/fynProject\/app\/static\/assets\/perfil\.scss}line{font-family:\0000322}}
+#perfil_card .thumbnail {
+  height: calc(100vh - 240px);
+  width: 100%;
+  display: block;
+  background-position: center;
+  border-radius: 5px 5px 0px 0px; }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natanjunior\/Documents\/fynProject\/app\/static\/assets\/perfil\.scss}line{font-family:\0000329}}
+  #perfil_card .acoes {
+    background-color: #DADFE1;
+    height: 45px;
+    margin: 0px;
+    border-radius: 0px 0px 5px 5px; }
+    @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natanjunior\/Documents\/fynProject\/app\/static\/assets\/perfil\.scss}line{font-family:\0000333}}
+    #perfil_card .acoes a {
+      padding: 0px;
+      height: 100%;
+      display: block;
+      text-align: center;
+      font-size: 3.5vh;
+      color: #2D2A25; }
+      @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natanjunior\/Documents\/fynProject\/app\/static\/assets\/perfil\.scss}line{font-family:\0000341}}
+      #perfil_card .acoes .like {
+        background-color: #b9f6ca; }
+        @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natanjunior\/Documents\/fynProject\/app\/static\/assets\/perfil\.scss}line{font-family:\0000344}}
+        #perfil_card .acoes .dislike {
+          background-color: #ffcdd2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natanjunior\/Documents\/fynProject\/app\/static\/assets\/perfil\.scss}line{font-family:\0000349}}
+#perfil_card .btn-floating {
+  top: -20px;
+  left: -10px;
+  float: right;
+  position: relative;
+  background-color: #90caf9 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natanjunior\/Documents\/fynProject\/app\/static\/assets\/estilo\.scss}line{font-family:\000031}}
+body {
+  background-color: #eeeeee; }
+
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natanjunior\/Documents\/fynProject\/app\/static\/assets\/estilo\.scss}line{font-family:\000035}}
+  .nav-extended .nav-content ul {
+    height: 36px !important; }
+    @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natanjunior\/Documents\/fynProject\/app\/static\/assets\/estilo\.scss}line{font-family:\000036}}
+    .nav-extended .nav-content ul li {
+      height: 36px !important; }
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natanjunior\/Documents\/fynProject\/app\/static\/assets\/estilo\.scss}line{font-family:\0000313}}
+  .nav-extended .material-icons {
+    height: 44px !important;
+    line-height: 44px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natanjunior\/Documents\/fynProject\/app\/static\/assets\/estilo\.scss}line{font-family:\0000320}}
+.pagina {
+  margin-bottom: 0px !important; }
+
+  @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natanjunior\/Documents\/fynProject\/app\/static\/assets\/estilo\.scss}line{font-family:\0000324}}
+  #menu_principal {
+    height: 50px; }
+
+    @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/natanjunior\/Documents\/fynProject\/app\/static\/assets\/estilo\.scss}line{font-family:\0000328}}
+    .conteudo {
+      min-height: calc(100vh - 100px) !important;
+      margin: 0px !important; }

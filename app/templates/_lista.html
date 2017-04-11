@@ -1,0 +1,12 @@
+<div class="list-group">
+	{% for p in palavrasChaves: %}
+	<button type="button" class="list-group-item" data-container="body" data-toggle="popover" data-placement="left" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">{{ p.capitalize() }}</button>
+	{% endfor %}
+</div>
+{% block scripts %}
+<script type="text/javascript">
+	$(function () {
+		$('[data-toggle="popover"]').popover();
+	})
+</script>
+{% endblock %}
